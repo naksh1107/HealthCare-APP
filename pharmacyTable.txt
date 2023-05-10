@@ -1,0 +1,52 @@
+create table Pharmacy
+(
+MedicineID varchar(20) not null,
+Name varchar(30),
+Manufacturer char(50),
+Pharmacological_Category varchar(50),
+Dosage_form varchar(50),
+Availability char(50),
+cost varchar(50)
+);
+
+insert into pharmacy values('A001','Amoxicillin','Northstar Rx LLC','Antibiotic','Capsule','yes(prescription only)','Rs 70/ 10 500mg capsule');
+insert into pharmacy values('A002','Aspirin','Northstar Rx LLC','analgesic','Tablet','yes(prescription only)','Rs 3/ 14 75mg tablets');
+insert into pharmacy values('A005','Azithromycin','Northstar Rx LLC','Antibiotic','Tablet','yes(prescription only)','Rs 65/ 3 500mg tablets');
+insert into pharmacy values('A006','Allopurinol','Northstar Rx LLC','Antigout agent','Tablet','yes(prescription only)','Rs 20/ 10 100mg tablets');
+insert into pharmacy values('A009','Azathioprine','Northstar Rx LLC','Immunosuppressant Agent','Tablet','yes(prescription only)','Rs 60/ 50mg tablet');
+insert into pharmacy values('A010','Albuterol','Northstar Rx LLC','Beta2 Agonist','Inhaler','yes(prescription only)','Rs 75/  100mcg');
+insert into pharmacy values('B001','Bactrim','Northstar Rx LLC','Antibacteria ','tablet','yes(prescription only)','Rs 22/ 10 160mg tablets');
+insert into pharmacy values('B002','Biotin','Northstar Rx LLC','vitamin','Tablet','yes','Rs 600/ 90 10000mcg tablets');
+insert into pharmacy values('C001','Chloroquine','Northstar Rx LLC','Amebicides','Tablet','yes(prescription only)','Rs 10/ 10 250mg tablets');
+insert into pharmacy values('C003','Claritin','Northstar Rx LLC','antihistamine','Tablet','yes','Rs 3000/ 100 10mg tablets');
+insert into pharmacy values('D001','Desyrel','Northstar Rx LLC','Antidepressant','Tablet','yes(prescription only)','Rs 33/ 10 50mg tablets');
+insert into pharmacy values('E001','Erythromycin','Arbor Pharmaceuticals','Antibiotic','Tablet','yes(prescription only)','Rs 35/ 250mg tablet');
+insert into pharmacy values('E002','Eszopiclone','Arbor Pharmaceuticals','sedative','Tablet','yes(prescription only)','Rs 50/ 10 1mg tablets');
+insert into pharmacy values('F001','Flomax','Arbor Pharmaceuticals','antiadrenergic','capsule','yes(prescription only)','Rs 55/ 0.4mg capsule');
+insert into pharmacy values('F002','Folic Acid','Arbor Pharmaceuticals','vitamin','Tablet','yes(prescription only)','Rs 43/ 30 5mg tablets');
+insert into pharmacy values('F003','Fentanyl','Arbor Pharmaceuticals','Narcotics','Patch','yes(prescription only)','Rs 1500/  25mcg patch');
+insert into pharmacy values('F005','Fosfomycin','Arbor Pharmaceuticals','Antibiotics','Sachet','yes(prescription only)','Rs 378/ 8mg Sachet');
+insert into pharmacy values('G001','Glucagon','Arbor Pharmaceuticals','Glucose elevating agent','Injection','yes(prescription only)','Rs 114/ 1mg injection ');
+insert into pharmacy values('G002','Glyxambi','Arbor Pharmaceuticals','Antidiabetic','Tablet','no','Rs 710/ 10 5mg tablets');
+insert into pharmacy values('H001','Hepatitis B adult vaccine','Arbor Pharmaceuticals','Viral Vaccine','vaccine','yes(prescription only)','Rs 250/ 10mcg vaccine');
+insert into pharmacy values('E001','Hydromorphone','Arbor Pharmaceuticals','Narcotics','Tablet','yes(prescription only)','Rs 300/ 100 5mg tablets');
+insert into pharmacy values('H003','Hydroxyzine','Arbor Pharmaceuticals','Antihistamines','Tablet','no','Rs 25/ 10 25mg tablets');
+insert into pharmacy values('I001','Insulin','Arbor Pharmaceuticals','Insulin','Injection','yes','Rs 300/ 3ml vial Injection');
+insert into pharmacy values('I003','Isotretinoin','Arbor Pharmaceuticals','Miscellaneous','capsule','yes(prescription only)','Rs 135/ 10 20mg capsule');
+insert into pharmacy values('K001','Ketalar','Arbor Pharmaceuticals','general anesthetics','Injection','yes(prescription only)','Rs 70/ 10mg injection');
+insert into pharmacy values('K002','Klonopin','Arbor Pharmaceuticals','Anticonvulsants','Tablet','yes(prescription only)','Rs 30/ 10 0.5mg tablets');
+insert into pharmacy values('L001','Lamisil','Arbor Pharmaceuticals','Miscellaneous','Tablet','yes(prescription only)','Rs 130/ 7 250mg tablets');
+insert into pharmacy values('L002','Lexapro','Arbor Pharmaceuticals','serotonin','Tablet','yes','Rs 50/ 10 10mg tablets');
+insert into pharmacy values('L003','Lovenox','Arbor Pharmaceuticals','Heparins','injection','yes(prescription only)','Rs 300/ 40mg injection');
+insert into pharmacy values('M003','Morphine','AbKare Inc','Narcotics','tablet','yes(prescription only)','Rs 200/ 0.5mg tablet');
+insert into pharmacy values('M005','Methadone','AbKare Inc','Narcotics','tablet','yes(prescription only)','Rs 700/ 90 10mg tablet');
+insert into pharmacy values('N001','Nicotine','AbKare Inc','Smoking Cessation agent','gum','yes','Rs 90/ 6 4mg gum');
+insert into pharmacy values('L003','Norflex','AbKare Inc','relaxants','tablet','no(discontinued)','Rs 40/ 3 100mg tablet');
+insert into pharmacy values('O003','Oxacillin','AbKare Inc','Antibiotic','capsule','yes(prescription only)','Rs 210/ 10 500mg capsule');
+insert into pharmacy values('P003','Penicillin','AbKare Inc','Penicillin','capsule','yes(prescription only)','Rs 150/ 4 250mg capsule');
+insert into pharmacy values('R003','Robaxin','AbKare Inc','relaxants','tablet','yes(prescription only)','Rs 50/  500mg tablet');
+insert into pharmacy values('S001','Silvadene','AbKare Inc','Antibiotics','ointment','yes(prescription only)','Rs 50/ piece');
+insert into pharmacy values('T001','Thiamine','AbKare Inc','Vitamin','capsule','yes','Rs 600/ 60 100mg capsule');
+insert into pharmacy values('P003','Penicillin','AbKare Inc','Penicillin','capsule','yes(prescription only)','Rs 150/ 4 250mg capsule');
+
+

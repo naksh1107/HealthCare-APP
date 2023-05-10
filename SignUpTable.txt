@@ -1,0 +1,25 @@
+CREATE TABLE signup(
+F_NAME VARCHAR(50) NOT NULL,
+L_NAME VARCHAR(50) NOT NULL,
+USERNAME VARCHAR(50) NOT NULL,
+PASSWORD VARCHAR(50) NOT NULL, 
+NAME VARCHAR(50) NOT NULL,
+GENDER VARCHAR(10) NOT NULL,
+AGE INT(3) NOT NULL,
+PHONE_NUMBER BIGINT(10) NOT NULL,
+ADDRESS VARCHAR(100) NOT NULL,
+PINCODE INT(6) NOT NULL,
+RETRIEVAL_PSWD VARCHAR(50) NOT NULL,
+FAMILY_DOC_NAME VARCHAR(50),
+BLOOD_GROUP VARCHAR(50) NOT NULL
+);
+
+
+create table patient(
+username varchar(50) not null,
+phone_no bigint(10) not null,
+time TIME not null,
+department varchar(50) not null
+);
+
+insert into sign_up values("nj","jain","nj1107","supp","M",32,9110243369,"420 villa",560067,"sql","reddy","o+");
